@@ -1,0 +1,71 @@
+@media(max-width:1100px){
+    .container{
+        flex-direction: column;
+    }
+
+    .container .illustration{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .container .info{
+        text-align: center;
+        padding: 45px 25px;
+    }
+    .container .info .btn-register{
+        padding: 20px 140px;
+    }
+
+    .footer .social{
+        justify-content: center;
+    }
+}
+
+@media(max-width:750px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .header .logo{
+        max-width: 300px;
+        margin-top: 10px;
+    }
+
+    .container .illustration{
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    .container .info .title{
+        margin-top: 88px;
+        font-size: 48px;
+    }
+
+    .container .info .content{
+        font-size: 29px;
+        line-height: 50px;
+    }
+
+    .footer .social{
+        padding: 50px;
+    }
+}
+
+@media(max-width:550px){
+    
+    .container .info .title{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .container .info .content{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .container .info .btn-register{
+        padding: 16px 65px;
+    }
+}
